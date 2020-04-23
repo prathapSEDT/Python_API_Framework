@@ -1,0 +1,9 @@
+
+set path=%PYTHON_HOME%;%PATH%
+rmdir /s /q Results
+rmdir /s /q allure-reports
+Packages.bat
+
+
+Pytest --alluredir=./Results TestCases
+
