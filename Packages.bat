@@ -1,0 +1,9 @@
+pip install pandas
+pip install selenium
+pip install xlrd
+pip install requests
+pip install faker
+pip install allure-pytest
+pip install pytest-ordering
+pip install pytest-dependency
+pip install openpyxl

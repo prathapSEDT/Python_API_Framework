@@ -1,0 +1,28 @@
+#In Which Environment you want to execute the API's
+[ENVIRONMENT]
+ENV=QA
+
+#===========================  Environement Details =====================================
+[QA_ENVIRONMENT]
+QA_BASE_URL=https://api.predic8.de:443
+QA_DATABASE_SERVER=ABC
+QA_DATABASE_USER_NAME=USER01
+QA_PASSWORD=PASS1234
+
+[DEV_ENVIRONMENT]
+DEV_BASE_URL=https://api.predic8.de:443
+DEV_DATABASE_SERVER=ABC
+DEV_DATABASE_USER_NAME=USER01
+DEV_PASSWORD=PASS1234
+#========================================================================================
+
+#********************************  RESOURCES *********************************************
+
+#========================================================================================
+[RESOURCES]
+CATEGORIES=/shop/categories/
+CREATE_CUSTOMER=/shop/customers/
+ORDERS=/shop/orders/
+CREATE_ORDER=/shop/customers/{QUERY}/orders/
+DELETE_ORDER=/shop/orders/{QUERY}
+
